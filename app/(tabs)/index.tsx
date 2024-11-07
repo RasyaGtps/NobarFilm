@@ -100,7 +100,7 @@ export default function TabOneScreen() {
   };
   return (
     <View style={styles.container}>
-      <Text style={styles.header}>Nobar Film</Text>
+      <Text style={styles.header}>NobarFilm</Text>
       <Animated.FlatList
         data={movies}
         renderItem={renderItem}
